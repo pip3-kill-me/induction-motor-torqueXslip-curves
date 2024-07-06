@@ -1,0 +1,1 @@
+# induction-motor-torqueXslip-curves
