@@ -85,8 +85,8 @@ for k=1:1:length(sv)
 end
 hold on
 plot(sv, y)
-title('Curva de conjugado')
-%xlabel('escorregamento (normalizado)') 
+title('Torque curve')
+%xlabel('slip (normalized)') 
 ylabel('Torque (N.m)')
 legend({'R','R/2','R*2'},'Location','southwest')
 
