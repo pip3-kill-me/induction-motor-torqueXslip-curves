@@ -112,7 +112,6 @@ $$
 I_{e}=\frac{E_{1}}{(R_{1}+jX_{1})+\frac{(\frac{R_{2}}{S}+jX_{2})jX_{M}}{(\frac{R_{2}}{S}+jX_{2})+jX_{M}}}
 $$
 
->note that E1 is phase voltage
 
 The resulting rotor current can be solved as:
 
@@ -131,6 +130,8 @@ To calculate the Thevenin equivalent of the input side of the induction motor eq
 $$
 V_{TH}=V_{\phi} \frac{X_{M}}{\sqrt{R_{1}^2+(X_{1}+X_{M})^2}}
 $$
+
+>note that V_{\phi} is phase voltage
 
 The equivalent Thevenin impedance can be calculated with:
 
