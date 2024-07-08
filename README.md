@@ -1,5 +1,5 @@
 # induction motor torque X slip curves
-This Matlab script generate torque curves for 3 different rotor resistance in function of relative slip for three phase induction motors.
+This Matlab script plots torque curves for 3 different rotor resistances in function of relative slip for three phase induction motors.
 ## table of contents
 * [Induction motors](#Induction-motors)
 	* [Introduction to Three-Phase Induction Motors](#Introduction-to-Three-Phase-Induction-Motors)
