@@ -1,5 +1,3 @@
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-\usepackage{amsmath}
 # induction motor torque X slip curves
 This Matlab script generate torque curves for 3 different rotor resistance in function of relative slip for three phase induction motors.
 ## table of contents
