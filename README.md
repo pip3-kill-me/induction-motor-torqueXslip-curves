@@ -75,21 +75,29 @@ $$
 I_{r}=\frac{E_{Lr}}{R_{r}/s + jX_{Lr}}
 $$
 or as a current divider:
+
 $$
 I_{r}=I_{e}(\frac{jX_{M}}{R_{r}/s+jX_{M}+jX_{2}})
 $$
+
 To calculate the Thevenin equivalent of the input side of the induction motor equivalent circuit, first open-circuit the terminals at the X’s and find the resulting open-circuit voltage present there. Then, to find the Thevenin impedance, short circuit the phase voltage and find the Zeq seen “looking” into the terminals. The magnitude of the Thevenin voltage Vth is:
+
 $$
 V_{TH}=V_{\phi} \frac{X_{M}}{\sqrt{R_{1}^2+(X_{1}+X_{M})^2}}
 $$
+
 The equivalent Thevenin impedance can be calculated with:
+
 $$
 Z_{TH}=\frac{jX_{M}(R_{1}+jX_{1})}{R_{1}+J(X_{1}+X_{M})}
 $$
+
 and finally, the induced torque can be expressed as:
+
 $$
 \tau_{ind}=\frac{3	V_{TH}^2R_{2}/S} {\omega_{sync}[(R_{TH}+R_{2}/S)^2+(X_{TH}+X_{2})^2]}
 $$
+
 ##  how to use this script
 You need to enter the following parameters: 
 
