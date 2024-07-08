@@ -38,22 +38,31 @@ When the three-phase power supply is applied to the stator windings, a rotating 
 > note that this only applies to 3 phase induction motors
 ## rotor slip
 The voltage induced in the rotor of a induction motor depends on the speed of the rotor relative to the magnetic field. Since the behavior of an induction motor depends on the rotor’s voltage and current, it is often more logical to talk about this relative speed. Two terms are commonly used to define the relative motion of the rotor and the magnetic fields. One is slip speed, defined as the difference between synchronous speed and rotor speed: 
+
 $$
 n_{slip}=n_{sync}-n_{m}
 $$
+
 The other term used to describe the relative motion is slip, which is the relative speed expressed on a per-unit (or percentage) basis:
+
 $$
 s=\frac{n_{sync}-n_{m}}{n_{sync}}
 $$
+
 or in angular velocity:
+
 $$
 s=\frac{\omega_{sync}-\omega_{m}}{\omega_{sync}}
 $$
+
 It is possible to express the mechanical speed of the rotor shaft in terms of synchronous speed and slip:
+
 $$
 \omega_{m}=(1-s)\omega_{sync}
 $$
+
 One of the more common expressions is derived by substituting equations for rotor speed and slip, resulting in:
+
 $$
 f_{r}=(n_{sync}-n_{m})\frac{P}{120}
 $$
@@ -65,15 +74,19 @@ A transformer per-phase equivalent circuit, representing the operation of an ind
 ![equivalent circuit per phase](https://i.ibb.co/Jx5ZGWw/Screenshot-116.png)
 ## rotor and stator current
 The stator current can be derived as:
+
 $$
 I_{e}=\frac{E_{1}}{(R_{1}+jX_{1})+\frac{(\frac{R_{2}}{S}+jX_{2})jX_{M}}{(\frac{R_{2}}{S}+jX_{2})+jX_{M}}}
 $$
+
 >note that E1 is phase voltage
 
 The resulting rotor current can be solved as:
+
 $$
 I_{r}=\frac{E_{Lr}}{R_{r}/s + jX_{Lr}}
 $$
+
 or as a current divider:
 
 $$
@@ -99,7 +112,7 @@ $$
 $$
 
 ##  how to use this script
-You need to enter the following parameters: 
+You need to enter the following parameters:
 
  - r1 = stator resistance (real)
  - x1 = stator reactance (imaginary)
@@ -130,8 +143,9 @@ You need to enter the following parameters:
     fe = 60
     pm = 100
 
+
 output:
-![enter image description here](https://i.ibb.co/qCvRLRp/Figure-1.png)
+![plot](https://i.ibb.co/qCvRLRp/Figure-1.png)
 ## references
 CHAPMAN, Stephen J. Electric Machinery Fundamentals. New York :McGraw-Hill, 2012.
 
