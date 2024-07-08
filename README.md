@@ -127,21 +127,22 @@ You need to enter the following parameters:
  - SoW = if slip is known = 1; if angular velocity is known = 0
  - fe = synchronous frequency
  - pm = not necessary, but mechanical losses (for future development of the script)
+
  ## example
  The following example had a three phase induction motor with the following parameters:
-    r1 = 0.641
-    x1 = 1.106i
-    r2 = 0.332
-    x2 = 0.464i
-    xm = 26.3i
-    v = 460
-    et = 1
-    np = 4
-    w = 0
-    SoW = 0
-    s = 0.016
-    fe = 60
-    pm = 100
+ - r1 = 0.641
+ - x1 = 1.106i
+ - r2 = 0.332
+ - x2 = 0.464i
+ - xm = 26.3i
+ - v = 460
+ - et = 1
+ - np = 4
+ - w = 0
+ - SoW = 0
+ - s = 0.016
+ - fe = 60
+ - pm = 100
 
 
 output:
