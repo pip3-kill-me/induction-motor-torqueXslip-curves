@@ -144,6 +144,7 @@ You need to enter the following parameters:
 
 
 output:
+
 ![plot](https://i.ibb.co/qCvRLRp/Figure-1.png)
 ## references
 CHAPMAN, Stephen J. Electric Machinery Fundamentals. New York :McGraw-Hill, 2012.
