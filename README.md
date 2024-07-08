@@ -131,7 +131,7 @@ $$
 V_{TH}=V_{\phi} \frac{X_{M}}{\sqrt{R_{1}^2+(X_{1}+X_{M})^2}}
 $$
 
->note that $ V_{\phi} $ is phase voltage
+>note that $V_{\phi}$ is phase voltage
 
 The equivalent Thevenin impedance can be calculated with:
 
